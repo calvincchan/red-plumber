@@ -28,16 +28,12 @@ class ViewController: UIViewController {
           
           // Calculate the magnitude of acceleration
           let accelerationMagnitude = abs(z)
-          if accelerationMagnitude > 1 {
-            print(accelerationMagnitude)
-          }
           
           let threshold: Double = 1.5 // Adjust this value as needed
           
           if accelerationMagnitude > threshold {
             // A sudden jolt was detected
             self.playSoundEffect()
-            print("jolt!")
           }
         }
       }
