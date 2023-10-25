@@ -15,6 +15,7 @@
 		3ED60BDB2AE98FCF00752310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60BD92AE98FCF00752310 /* LaunchScreen.storyboard */; };
 		3ED60BE42AE9903100752310 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED60BE32AE9903100752310 /* CoreMotion.framework */; };
 		3ED60BE62AE9937D00752310 /* super-mario-bros-coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60BE52AE9937D00752310 /* super-mario-bros-coin.mp3 */; };
+		3ED60BEB2AE9A16100752310 /* coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60BEA2AE9A16100752310 /* coin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3ED60BDC2AE98FCF00752310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ED60BE32AE9903100752310 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3ED60BE52AE9937D00752310 /* super-mario-bros-coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "super-mario-bros-coin.mp3"; sourceTree = "<group>"; };
+		3ED60BEA2AE9A16100752310 /* coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3ED60BCE2AE98FCE00752310 /* AppDelegate.swift */,
 				3ED60BD02AE98FCE00752310 /* SceneDelegate.swift */,
 				3ED60BD22AE98FCE00752310 /* ViewController.swift */,
+				3ED60BEA2AE9A16100752310 /* coin.png */,
 				3ED60BD42AE98FCE00752310 /* Main.storyboard */,
 				3ED60BD72AE98FCF00752310 /* Assets.xcassets */,
 				3ED60BD92AE98FCF00752310 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED60BEB2AE9A16100752310 /* coin.png in Resources */,
 				3ED60BE62AE9937D00752310 /* super-mario-bros-coin.mp3 in Resources */,
 				3ED60BDB2AE98FCF00752310 /* LaunchScreen.storyboard in Resources */,
 				3ED60BD82AE98FCF00752310 /* Assets.xcassets in Resources */,
