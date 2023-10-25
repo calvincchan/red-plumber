@@ -17,6 +17,10 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
     
     // Check if the accelerometer is available
     if motionManager.isAccelerometerAvailable {
@@ -68,7 +72,14 @@ class ViewController: UIViewController {
   
   override func viewDidDisappear(_ animated: Bool) {
     super.viewDidDisappear(animated)
+
+    // Stop accelerometer updates and invalidate the cleanup timer
+    motionManager.stopAccelerometerUpdates()
     cleanupTimer?.invalidate()
     cleanupTimer = nil
+  }
+  
+  deinit {
+    motionManager.stopAccelerometerUpdates()
   }
 }
