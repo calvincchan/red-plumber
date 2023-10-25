@@ -13,6 +13,7 @@
 		3ED60BD62AE98FCE00752310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60BD42AE98FCE00752310 /* Main.storyboard */; };
 		3ED60BD82AE98FCF00752310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60BD72AE98FCF00752310 /* Assets.xcassets */; };
 		3ED60BDB2AE98FCF00752310 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED60BD92AE98FCF00752310 /* LaunchScreen.storyboard */; };
+		3ED60BE42AE9903100752310 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED60BE32AE9903100752310 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3ED60BD72AE98FCF00752310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ED60BDA2AE98FCF00752310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ED60BDC2AE98FCF00752310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ED60BE32AE9903100752310 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED60BE42AE9903100752310 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				3ED60BCD2AE98FCE00752310 /* red-plumber */,
 				3ED60BCC2AE98FCE00752310 /* Products */,
+				3ED60BE22AE9903100752310 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				3ED60BDC2AE98FCF00752310 /* Info.plist */,
 			);
 			path = "red-plumber";
+			sourceTree = "<group>";
+		};
+		3ED60BE22AE9903100752310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED60BE32AE9903100752310 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
